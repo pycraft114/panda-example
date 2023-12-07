@@ -2,6 +2,11 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
+  "postcss": {
+    "plugins": {
+      "@pandacss/dev/postcss": {}
+    }
+  },
   "scripts": {
     "prepare": "panda codegen",
     "dev": "next dev",
